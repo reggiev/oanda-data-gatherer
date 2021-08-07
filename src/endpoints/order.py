@@ -1,4 +1,4 @@
-from src.platforms.oanda.general import process_request
+from src.endpoints.general import process_request
 
 def get_order_list(instance, account_id, params):
     endpoint = "v3/accounts/{accountID}/orders".format(accountID=account_id)

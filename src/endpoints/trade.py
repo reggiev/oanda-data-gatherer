@@ -1,4 +1,4 @@
-from src.platforms.oanda.general import process_request
+from src.endpoints.general import process_request
 
 def get_trades(instance, account_id, params):
     endpoint = "v3/accounts/{accountID}/trades".format(accountID=account_id)

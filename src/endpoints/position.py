@@ -1,4 +1,4 @@
-from src.platforms.oanda.general import process_request
+from src.endpoints.general import process_request
 
 def get_positions(instance, account_id):
     endpoint = "v3/accounts/{accountID}/positions".format(accountID=account_id)

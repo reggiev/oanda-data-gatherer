@@ -1,4 +1,4 @@
-from src.platforms.oanda.general import process_request
+from src.endpoints.general import process_request
 
 
 def get_latest_candles(instance, account_id, json, params):
